@@ -7,9 +7,6 @@ import { useScoreStore } from '../store/scoreStore002';
  * const 상태 = use상태Store(state => state.상태)
  * const 액션 = use이름Store(state => state.액션)
  *
- * 단, 이 경우에도 여러 개의 state를 하나의 스토어 훅을 통해 한번에 가져올 경우
- * 불필요한 렌더링이 생기게 되므로 한 번의 훅 호출에서는 한 번의 상태나 객체만을 가져오는 걸 권장
- *
  */
 
 const ScoreA = () => {
