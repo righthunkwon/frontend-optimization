@@ -1,10 +1,12 @@
-import Score from './components/Score';
+import GoodScore from './components/GoodScore';
+import BadScore from './components/BadScore';
 
 const App = () => {
   return (
     <>
       <div>
-        <Score />
+        <BadScore />
+        <GoodScore />
       </div>
     </>
   );
