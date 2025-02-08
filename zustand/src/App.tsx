@@ -1,12 +1,21 @@
-import GoodScore from './components/GoodScore';
-import BadScore from './components/BadScore';
+import ScoreGood from './components/ScoreGood';
+import ScoreBad from './components/ScoreBad';
+import UserBad from './components/UserBad';
+import UserGood from './components/UserGood';
 
 const App = () => {
   return (
     <>
       <div>
-        <BadScore />
-        <GoodScore />
+        <hr />
+        <ScoreBad />
+        <ScoreGood />
+        <div>&nbsp;</div>
+        <hr />
+        <UserBad />
+        <UserGood />
+        <div>&nbsp;</div>
+        <hr />
       </div>
     </>
   );
