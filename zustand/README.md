@@ -1,0 +1,3 @@
+- [zustand 핵심 정리](https://www.heropy.dev/p/n74Tgc)
+- [shallow 대신 useShallow 사용하기](https://velog.io/@ony_/zustand-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%B5%9C%EC%A0%81%ED%99%94-shallow-%EB%8C%80%EC%8B%A0-useShallow-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+-
