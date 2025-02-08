@@ -5,6 +5,8 @@ import { useUserStore } from '../store/userStore001';
  * Bad practice
  * - 필요한 상태를 하나하나 각각 스토어 훅의 콜백을 통해 가져오기
  *
+ * 동작에는 문제가 없지만 중복 코드가 많이 발생하고 각 값을 확인하기 어려움
+ *
  */
 
 const UserProfile = () => {
